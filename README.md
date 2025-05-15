@@ -29,6 +29,17 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 
 
 - Deployed replicated MongoDB (StatefulSet using Helm Chart) and configured Data Persistence with Linode Block Storage
+
+  ![image](https://github.com/user-attachments/assets/ffdc8208-f02a-4e4b-a2c1-00fa64bffee4)
+  
+
+  ![image](https://github.com/user-attachments/assets/cc1482b5-115b-4610-88c4-7c829010a158
+
+
+  ![image](https://github.com/user-attachments/assets/ab71e687-0cd9-4b33-bf98-c606006e9b54)
+
+
+
 - Deployed MongoExpress (Deployment and Service)
 - Deployed NGINX Ingress Controller as Loadbalancer (using Helm Chart)
 - Configured Ingress rule
