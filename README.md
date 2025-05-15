@@ -1,4 +1,4 @@
-# Helm-Demo---Managed-K8s-cluster
+# Helm-Demo-Managed-K8s-cluster
 
 
 ## **Project Overview**
