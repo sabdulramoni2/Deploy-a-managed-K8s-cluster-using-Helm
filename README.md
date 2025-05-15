@@ -56,6 +56,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 
 
   ![image](https://github.com/user-attachments/assets/c3ed9756-83b8-4bf5-996f-5124265fab37)
+  
 
   ![image](https://github.com/user-attachments/assets/a31547e3-db42-4f2f-93f2-9c179db2a82c)
 
