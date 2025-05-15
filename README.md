@@ -19,6 +19,8 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 - Created K8s cluster on Linode Kubernetes Engine
 
   ![image](https://github.com/user-attachments/assets/40763b09-0f0d-4f7b-82fa-7e1cf76deaab)
+
+- Set permission on the kubeconfig file and set as evn
   
 
   ![image](https://github.com/user-attachments/assets/a98825b5-6626-4b8d-a9d2-b000ec45250b)
