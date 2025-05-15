@@ -43,7 +43,23 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 
 
 - Deployed MongoExpress (Deployment and Service)
+
+  ![image](https://github.com/user-attachments/assets/4a8d4d42-5c02-4ed2-a958-57ad0bd7facd)
+
 - Deployed NGINX Ingress Controller as Loadbalancer (using Helm Chart)
+
+  ![image](https://github.com/user-attachments/assets/b970bc50-153f-48bd-92ed-331a0ed3c6b4)
+
 - Configured Ingress rule
+
+  ![image](https://github.com/user-attachments/assets/626eb546-c9cc-4960-ad31-e7dd2b326c35)
+
+
+  ![image](https://github.com/user-attachments/assets/c3ed9756-83b8-4bf5-996f-5124265fab37)
+
+  ![image](https://github.com/user-attachments/assets/a31547e3-db42-4f2f-93f2-9c179db2a82c)
+
+
+
  
 ---
