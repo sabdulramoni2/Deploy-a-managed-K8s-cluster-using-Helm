@@ -15,6 +15,23 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 5.	Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
 6.	Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
 7.	Run kubectl get node.
+8.	8.	SECOND STEP
+9.	Deploy MongoDB StatefulSet into the cluster using Helm chart.
+10.	Install Helm into the environment.
+11.	Add the repository that have the helm chart. 
+12.	Search the repository (helm search repo “repo name”).
+13.	Search the repository (helm search repo bitnami/mongodb).
+14.	The chart allows you to overwrite some values using the values files.
+a.	Architecture: replicaset
+b.	Persistence: Storage class
+c.	Auth : rootPassword: Secret
+15.	Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
+16.	 Run helm install mongodb –values helm-mongo.yaml bitnami/mongodb.
+17.	Run “kubectl get pod” to see the pods.
+18.	Check to see if all components are created; services, StatefulSets, volume. 
+19.	Now we have a Mongodb with a persistent volume in the cluster.
+20.	THIRD STEP (Deployment of MongoExpress)
+
 
 
 ## **Features**
