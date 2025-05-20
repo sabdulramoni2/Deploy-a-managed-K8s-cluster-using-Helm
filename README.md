@@ -22,7 +22,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   -	Search the repository (helm search repo “repo name”).
   - Search the repository (helm search repo bitnami/mongodb).
   - The chart allows you to overwrite some values using the values files.
-      a.	Architecture: replicaset
+      -	Architecture: replicaset
       b.	Persistence: Storage class
       c.	Auth : rootPassword: Secret
 15.	Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
