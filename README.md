@@ -51,16 +51,6 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
      - Run kubectl apply -f [file name] to create the ingress rule.
        Access the MongoExpress using the domain name
 
-
-
-
-
-## **Features**
-- Created K8s cluster on Linode Kubernetes Engine
-- Deployed replicated MongoDB (StatefulSet using Helm Chart) and configured Data Persistence with Linode Block Storage
-- Deployed MongoExpress (Deployment and Service)
-
-- Configured Ingress rule
  
 ---
 
