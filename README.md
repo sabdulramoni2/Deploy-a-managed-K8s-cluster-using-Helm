@@ -8,7 +8,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 
 ## **Features**
 - Linode K8 cluster set up
-  -- Created K8 cluster on Linode engine.
+  - Created K8 cluster on Linode engine.
 -		Downloaded the kubeconfig.yaml file to your laptop to access the cluster remotely.
 -		Set the correct permission on the file using, chmod 400 “file name”.
 - Set kubeconfig.yaml file as an environmental variable. 
