@@ -12,10 +12,10 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   -	Downloaded the kubeconfig.yaml file to your laptop to access the cluster remotely.
   - Set the correct permission on the file using, chmod 400 “file name”.
   - Set kubeconfig.yaml file as an environmental variable. 
-- Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
--	Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
--	Run kubectl get node.
-8.	8.	SECOND STEP
+  - Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
+  -	Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
+  -	Run kubectl get node.
+- SECOND STEP
 9.	Deploy MongoDB StatefulSet into the cluster using Helm chart.
 10.	Install Helm into the environment.
 11.	Add the repository that have the helm chart. 
