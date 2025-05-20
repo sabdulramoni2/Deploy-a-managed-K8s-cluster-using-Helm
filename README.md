@@ -31,6 +31,11 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   - Check to see if all components are created; services, StatefulSets, volume. 
   - Now we have a Mongodb with a persistent volume in the cluster.
   - THIRD STEP (Deployment of MongoExpress)
+- Deployment of MongoExpress
+  - Set up a configuration file to deploy MongoExpress
+  - Set up a configuration file to deploy MongoExpress
+  - Run kubectl apply -f [file name] to start the application
+  - 23.	Run kubectl logs [container name] to see the logs.
 
 
 
