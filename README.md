@@ -7,14 +7,14 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 ---
 
 ## **Features**
-
--	Created K8 cluster on Linode engine.
-2.	Downloaded the kubeconfig.yaml file to your laptop to access the cluster remotely.
-3.	Set the correct permission on the file using, chmod 400 “file name”.
-4.	Set kubeconfig.yaml file as an environmental variable. 
-5.	Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
-6.	Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
-7.	Run kubectl get node.
+- Linode K8 cluster set up
+  -- Created K8 cluster on Linode engine.
+-		Downloaded the kubeconfig.yaml file to your laptop to access the cluster remotely.
+-		Set the correct permission on the file using, chmod 400 “file name”.
+- Set kubeconfig.yaml file as an environmental variable. 
+- Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
+-	Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
+-	Run kubectl get node.
 8.	8.	SECOND STEP
 9.	Deploy MongoDB StatefulSet into the cluster using Helm chart.
 10.	Install Helm into the environment.
@@ -31,6 +31,7 @@ c.	Auth : rootPassword: Secret
 18.	Check to see if all components are created; services, StatefulSets, volume. 
 19.	Now we have a Mongodb with a persistent volume in the cluster.
 20.	THIRD STEP (Deployment of MongoExpress)
+
 
 
 
