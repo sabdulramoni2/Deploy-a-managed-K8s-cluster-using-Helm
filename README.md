@@ -8,7 +8,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 
 ## **Features**
 
-1.	Created K8 cluster on Linode engine.
+-	Created K8 cluster on Linode engine.
 2.	Downloaded the kubeconfig.yaml file to your laptop to access the cluster remotely.
 3.	Set the correct permission on the file using, chmod 400 “file name”.
 4.	Set kubeconfig.yaml file as an environmental variable. 
@@ -26,7 +26,7 @@ a.	Architecture: replicaset
 b.	Persistence: Storage class
 c.	Auth : rootPassword: Secret
 15.	Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
-16.	 Run helm install mongodb –values helm-mongo.yaml bitnami/mongodb.
+16.	Run helm install mongodb –values helm-mongo.yaml bitnami/mongodb.
 17.	Run “kubectl get pod” to see the pods.
 18.	Check to see if all components are created; services, StatefulSets, volume. 
 19.	Now we have a Mongodb with a persistent volume in the cluster.
