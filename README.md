@@ -21,10 +21,10 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   - Add the repository that have the helm chart. 
   -	Search the repository (helm search repo “repo name”).
   - Search the repository (helm search repo bitnami/mongodb).
-14.	The chart allows you to overwrite some values using the values files.
-a.	Architecture: replicaset
-b.	Persistence: Storage class
-c.	Auth : rootPassword: Secret
+  - The chart allows you to overwrite some values using the values files.
+      a.	Architecture: replicaset
+      b.	Persistence: Storage class
+      c.	Auth : rootPassword: Secret
 15.	Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
 16.	Run helm install mongodb –values helm-mongo.yaml bitnami/mongodb.
 17.	Run “kubectl get pod” to see the pods.
