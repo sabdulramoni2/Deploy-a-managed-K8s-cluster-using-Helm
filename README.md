@@ -35,8 +35,8 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   - installs MongoDB into your Kubernetes cluster using Helm
     
     ```
-         Run  helm install our name –values [values file name] [chart name = repository/resource name]
-         Run helm install mongodb -–values helm-mongo.yaml bitnami/mongodb
+           helm install our name –values [values file name] [chart name = repository/resource name]
+           helm install mongodb -–values helm-mongo.yaml bitnami/mongodb
     ```
   - To see the pods
     ```
@@ -48,8 +48,12 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
 - Deployment of MongoExpress
   - Set up a configuration file to deploy MongoExpress
   - Set up a configuration file to deploy MongoExpress
-  - Run kubectl apply -f [file name] to start the application
-  - Run kubectl logs [container name] to see the logs.
+  - To start the application
+    ```
+       kubectl apply -f [file name]
+       kubectl logs [container name]
+    ```
+       
     
 - Deployed NGINX Ingress Controller as Loadbalancer (using Helm Chart)
   - Use helm chart to deploy Ingress Controller.
@@ -62,8 +66,12 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
      - The host in the Ingress must be a valid domain name.
      - Host = domain address.
      - Your domain name must point to IP address of the NodeBalancer.
-     - Run kubectl apply -f [file name] to create the ingress rule.
-       Access the MongoExpress using the domain name
+     - To create the ingress rule.
+       ```
+            kubectl apply -f [file name]
+       ```
+       
+     - Access the MongoExpress using the domain name
 
  
 ---
