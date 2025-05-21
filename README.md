@@ -18,7 +18,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
     ```
   -	To see the nodes Run
     ```
-       kubectl get node
+       kubectl get nodes
     ```
     
 - SECOND STEP
@@ -31,9 +31,17 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
       -	Architecture: replicaset
       - Persistence: Storage class
       - Auth : rootPassword: Secret
-  - Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
-  - Run helm install mongodb –values helm-mongo.yaml bitnami/mongodb.
-  - Run “kubectl get pod” to see the pods.
+    
+  - installs MongoDB into your Kubernetes cluster using Helm
+    
+    ```
+         Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
+         Run helm install mongodb -–values helm-mongo.yaml bitnami/mongodb
+    ```
+  - To see the pods
+    ```
+         kubectl get pod
+    ```
   - Check to see if all components are created; services, StatefulSets, volume. 
   - Now we have a Mongodb with a persistent volume in the cluster.
   - THIRD STEP (Deployment of MongoExpress)
