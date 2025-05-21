@@ -35,7 +35,7 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
   - installs MongoDB into your Kubernetes cluster using Helm
     
     ```
-         Run “ helm install our name –values [values file name] [chart name = repository/resource name]”
+         Run  helm install our name –values [values file name] [chart name = repository/resource name]
          Run helm install mongodb -–values helm-mongo.yaml bitnami/mongodb
     ```
   - To see the pods
