@@ -16,7 +16,11 @@ This project demonstrates deploying a managed K8s cluster on Linode Kubernetes e
        Export KUBECONFIG= kubeconfig. yaml (LINUX OS).
        Set KUBECONFIG= kubeconfig. yaml (WINDOWS OS).
     ```
-  -	Run kubectl get node.
+  -	To see the nodes Run
+    ```
+       kubectl get node
+    ```
+    
 - SECOND STEP
   -	Deploy MongoDB StatefulSet into the cluster using Helm chart.
   -	Install Helm into the environment.
